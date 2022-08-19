@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'SUIT-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BCcardL';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.1/BCcardL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{margin: 0; padding: 0;}
+ul{list-style:none;}
+a{text-decoration: none; color: #000;}
+body{font-size: 18px; line-height: 26px; color: #000; font-family: 'SUIT-Medium';}
+
+/*header*/
+#header{background-color: #f7f1ef; width: 100%; height: 120px;}
+.header_inner{width: 1320px; margin: 0 auto; position: relative;}
+.logo{position:absolute; top: 10px; left: 10px;}
+#gnb{float: right;}
+#gnb li{float: left;}
+#gnb li a{display: block; font-family: 'BCcardL'; font-size: 26px; padding-left: 250px; height: 30px; margin-top: 48px; }
+#gnb li a:hover{font-family: 'BCcardL'; color: #2d4633; font-size: 26px; font-weight: bold;}
+
+.solid{width:100%; margin:auto; margin-top:10px; height:2.5px; background:#2d4633; visibility:hidden; opacity:0; transform:scaleX(0); transition-property:opacity, transform; transition-duration:0.5s;}
+#gnb>li>a:hover .solid{transform:scaleX(1); opacity:1; visibility:visible;}		
+
+/*banner*/
+#banner{width: 100%; height: 600px;}
+.banner_img{width: 100%; height: 100%; display: inline-block;}
+
+/*slogan*/
+#slogan{width: 100%; height: 230px; margin: 0 auto; background-color: #86cca0; position: relative; box-sizing: border-box; display: block;}
+.deco_left{position: absolute; left: 0; top: 15px;}
+.deco_right{position: absolute; right: 0; top: 50px;} 
+
+.slogan_inner{width: 1320px; margin: 0 auto; box-sizing: border-box; }
+.slogan_img{position: absolute; left: 20%; top: 24%;}
+.slogan_inner h1{float: right; margin: 70px 0; font-family: 'BCcardL'; font-size: 36px; line-height: 48px; text-align: right; color: #fff; font-weight: 300; position: absolute; right: 21%;}
+span{font-weight: bold;}
+
+/*content1*/
+#content1{width: 1320px; height: 650px; margin: 50px auto; padding-top: 60px; box-sizing: border-box;}
+.content1 img{float: left;}
+
+.text_box{float: right; width: 630px; height: 600px; margin-left: 50px; padding-top: 100px; box-sizing: border-box;}
+.intro_title{position: relative; text-align: left; margin: 0 auto;}
+h2{font-family: 'BCcardL'; color: #2d4633; font-weight: 900; font-size: 35px;}
+.title_deco{position: absolute; left: -5%; top: -140%;}
+
+h3{font-family: 'BCcardL'; font-size: 23px; font-weight: 900; color: #2d4633; padding-top: 50px;}
+.intro_text p{font-size: 18px; font-weight: 30px; padding: 10px 0;}
+.green{font-weight: bold; color: #2d4633;}
+.pet{font-weight: 300; font-size: 14px;}
+
+/*content2*/
+.intro_deco02{position: relative; margin: 0 auto; text-align: center; margin-top: 70px; margin-bottom: 20px;}
+.coffee_deco{margin-bottom: 15px;}
+h4{font-family: 'BCcardL'; font-size: 32px; font-weight: bolder; color: #4b433d;}
+.intro_deco02 img{padding-top: 10px;}
+
+#content2{width: 1320px; height: 410px; margin: 0 auto; border: dashed #4b433d 3.9px; border-radius: 195.5px; position: relative; box-sizing: border-box; margin-bottom: 40px;}
+.coffee_bean{position: absolute; left: 5%; top: 12%;}
+.latte_art{position: absolute; right: 5%; top: 12%;}
+.con_logo{position: absolute; left: 50%; top: 28%; text-align: center; margin-left: -192.08px;}
+.con_logo p{font-size: 18px; line-height: 27px; text-align: center; margin-top: 10px;}
+.brown{color: #4b433d; font-weight: bolder;}
+.special{color: #2d4633; font-weight: bolder;}
+
+/*content3*/
+#box01{width: 1320px; height: 550px; position: relative; margin: 0 auto;}
+h5{font-family: 'BCcardL'; font-size: 32px; font-weight: bolder; color: #4b433d; margin-bottom: 20px;}
+.story{position: absolute; top: 12%; right: 7%;}
+.line01{position: relative; box-sizing: border-box; width: 550px;}
+.line01 img{position: absolute; left: 2.5%; top: 200%;}
+.line01 p{position: absolute; font-size: 21px; line-height: 40px; left: 6%;}
+
+.blending{position: absolute; top: 52%; left: 52%;}
+.line0203{position: relative; box-sizing: border-box; width: 225px;}
+.line0203 img{position: absolute; left: 3.2%; top: 58px;}
+.line0203 p{position: absolute; font-size: 20px; line-height: 40px; left: 13%;}
+.taste{position: absolute; top: 52%; right: 7%;}
+
+/*content4*/
+#box02{width: 1320px; height: 430px; clear: both; position: relative; margin: 0 auto; margin-top: 25px; margin-bottom: 60px;}
+#box02 p{color: #fff; font-size: 20px; line-height: 40px;}
+.color{font-family: 'BCcardL'; font-size: 32px; font-weight: bolder; color: #e8cdb9; margin-bottom: 20px;}
+.story02{position: absolute; top: 13%; left: 5%;}
+.line04{position: relative; box-sizing: border-box; width: 540px;}
+.line04 img{position: absolute; left: 2%; top: 210%;}
+.line04 p{position: absolute; left: 5.5%;}
+
+.roasting{position: absolute; top: 53%; left: 5%; width: 560px;} 
+.line05{position: relative; box-sizing: border-box; width: 550px;}
+.roasting img{position:absolute; left: 2.5%; top: 200%;}
+.roasting p{position: absolute; left: 5.5%; top: 150%; font-size: 19px;}
+
+/*baking*/
+.baking{margin: 0 auto; text-align: center; padding-top: 30px;} 
+.cake_deco{margin-bottom: 15px;}
+.baking_text{font-family: 'SUIT-Medium'; font-size: 21px; text-align: center; margin: 40px; line-height: 40px;}
+.brown_bold{color: #4b433d; font-weight: bold; font-size: 23px;}
+
+#baking_intro{width: 1320px; height: 550px; margin: 0 auto; position: relative;}
+.baking_left{position: absolute; left: 2%;}
+.baking_right{position: absolute; right: 5%;}
+.baking_box01 p{display: inline-block; color: #fff; background-color: #4b433d; font-family: 'SUIT-Medium'; font-size: 20px; line-height: 35px; text-align: left; padding: 20px 60px;}
+
+.baking_box01{position: relative; margin: 70px 0;}
+.baking_box01 p{display: inline-block; color: #fff; background-color: #4b433d; font-family: 'SUIT-Medium'; font-size: 20px; line-height: 35px; text-align: left; padding: 5px 90px; right: 0;}
+.baking_icon01{position: absolute; left: -22%; top: -25%;}
+
+.baking_box02{position: relative;}
+.baking_icon02{position: absolute; right: -4%; top: -10%;}
+.baking_box02 p{display: inline-block; color: #fff; background-color: #4b433d; font-family: 'SUIT-Medium'; font-size: 20px; line-height: 35px; text-align: left; padding: 5px 120px; position: absolute; left: -17%; top: 25px; }
+
+/*footer*/
+#footer{width: 100%; height: 200px; background-color: #e0d0c5;}
+.footer_inner{width: 1320px; margin: 0 auto; position: relative;}
+.footer_logo{float: left; position: absolute; top: 54px;}
+.footer_text{float: right; position: absolute; left: 300px; top: 65px; font-family: 'SUIT-Medium'; color: #422f28; line-height: 40px;}
+
+.insta, .youtube, .facebook{position: absolute;}
+.insta{position: absolute; right: 280px; top: 80px;}
+.youtube{position: absolute; right: 200px; top: 80px;}
+.facebook{position: absolute; right: 120px; top: 80px;}
+.insta:hover, .youtube:hover, .facebook:hover{opacity: 50%;}
